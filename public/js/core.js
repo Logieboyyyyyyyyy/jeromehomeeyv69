@@ -41,16 +41,20 @@ document.addEventListener("DOMContentLoaded", function () {
 
   if (existingNavs.length === 0) {
     var navHTML = `
+         <marquee><a href="https://discord.gg/fbjT5wG4za" class="red">NATIVE DISCORD SERVER GOT NUKED ITS BACK JOIN NOW!
+  (click me to join)
+</a></marquee>
           <nav class="navbar">
               <h1 class="navtext">native.</h1>
-              <li><a href="./" class="navlink">Home</a></li>
-              <li><a href="projects">Games</a></li>
-              <li><a href="bookmarklets">Bookmarklets</a></li>
-              <li><a href="apps">Apps</a></li>
-              <li><a href="search">Pr0x</a></li>
+              <li><a href="/./" class="navlink">Home</a></li>
+              <li><a href="/./projects">Games</a></li>
+              <li><a href="/./bookmarklets">Bookmarklets</a></li>
+              <li><a href="/./apps">Apps</a></li>
+              <li><a href="/./form">Request</a></li>
+              <li><a href="/./search">Pr0x</a></li>
               <li><a href="#" onclick="createBlank();">about:blank</a></li>
-              <li><a href="settings">Settings</a></li>
-              <li><a href="other/">More</a></li>
+              <li><a href="/./settings">Settings</a></li>
+              <li><a href="/./other/">More</a></li>
           </nav>
           <div id='stars'></div>
           <div id='stars2'></div>
